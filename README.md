@@ -9,6 +9,10 @@ To run the program, you will need to have Python 3 and the following libraries i
 - pandas
 - librosa
 - keras
+
+```bash
+pip install -r requirements.txt 
+```
 ## Getting Started
 To start, you will need to have sound files of the three sounds you want to recognize. Place the sound files in the `data` directory under a subdirectory with the name of the sound. For example, if you want to recognize the hoot of an owl, create a subdirectory called `owl_hoot` in the `data` directory and place owl hoot sound files in it.
 
