@@ -9,7 +9,8 @@ from data_preprocessing import prepare_dataset
 num_classes = 3
 
 # Prepare the dataset
-X, y = prepare_dataset('data')
+X, y = prepare_dataset()
+print("Dataset shape: ", X.shape)
 
 # Convert labels to categorical one-hot encoding
 y = to_categorical(y, num_classes)
