@@ -2,7 +2,7 @@
 This project is a simple sound recognition AI system built using Keras and TensorFlow. It can recognize three different sounds: the hoot of an owl, a hunter's shot, and the chirping of a robin.
 
 ## Prerequisites
-Before running the program, make sure you have Python 3 installed on your machine. You will also need to install the following libraries:
+Before running the program, make sure you have Python `3.10` installed on your machine. You will also need to install the following libraries:
 
 - numpy
 - tensorflow

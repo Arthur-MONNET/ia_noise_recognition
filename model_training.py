@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from data_preprocessing import prepare_dataset
 
 # Define the number of classes
-num_classes = 3
+num_classes = 4
 
 # Prepare the dataset
 X, y = prepare_dataset()

@@ -30,10 +30,12 @@ while True:
     prediction = model.predict(features)
     # Get the predicted sound class
     sound_class = np.argmax(prediction, axis=1)
-    # Print the predicted sound class
-    if sound_class == 0:
-        print("Hoot of an owl")
-    elif sound_class == 1:
-        print("Hunter's shot")
-    elif sound_class == 2:
-        print("Chirping of a robin")
+    # Print the predicted sound class en francais
+    if(sound_class == 0):
+        print("")
+    elif(sound_class == 1):
+        print("Chouette hulotte")
+    elif(sound_class == 2):
+        print("Tir de chasse")
+    elif(sound_class == 3):
+        print("Rouge-gorge")

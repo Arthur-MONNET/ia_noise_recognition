@@ -3,7 +3,7 @@ import numpy as np
 import librosa
 
 # Définir les classes de sons à reconnaître
-classes = ['chouette_hulotte', 'hunter_shot', 'rouge_gorge']
+classes = ['_white', 'chouette_hulotte', 'hunter_shot', 'rouge_gorge']
 
 # Définir les paramètres d'analyse des fichiers audio
 sampling_rate = 22050
